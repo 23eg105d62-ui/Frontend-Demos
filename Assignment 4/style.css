@@ -1,0 +1,38 @@
+body {
+    background-color: #d7d9c4;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 70%;
+    margin: 40px auto;
+    background: #e3e5d0;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+}
+
+.intro img {
+    margin-right: 15px;
+    width: 150px;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+.phone {
+    color: red;
+}
+
+.footer-link {
+    color: red;
+    text-decoration: none;
+}
