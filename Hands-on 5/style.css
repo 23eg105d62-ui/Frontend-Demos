@@ -1,0 +1,161 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Roboto', sans-serif;
+    background:#f2f2f2;
+}
+
+
+.first{
+    height:90vh;
+    background:url("https://images.unsplash.com/photo-1500534314209-a25ddb2bd429") center/cover no-repeat;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    color:#fff;
+    position:relative;
+}
+
+.onTop{
+    background:rgba(0,0,0,0.4);
+    padding:40px;
+}
+
+.first h1{
+    font-family:'Oswald', sans-serif;
+    font-size:48px;
+    font-weight:700;
+    letter-spacing:2px;
+    margin-bottom:20px;
+}
+
+.first button{
+    background:#f4a000;
+    border:none;
+    padding:12px 30px;
+    font-size:16px;
+    cursor:pointer;
+    color:#fff;
+}
+
+
+.outdoor{
+    display:flex;
+    padding:80px 10%;
+    gap:50px;
+    background:#fff;
+}
+
+.outdoor-left{
+    flex:1;
+}
+
+.outdoor-left h2{
+    font-family:'Oswald', sans-serif;
+    font-size:42px;
+    color:#0b3c6f;
+    margin-bottom:20px;
+}
+
+.outdoor-right{
+    flex:1;
+    position:relative;
+}
+
+.outdoor-right img{
+    width:100%;
+}
+
+.arrows{
+    position:absolute;
+    bottom:-30px;
+    left:50%;
+    transform:translateX(-50%);
+    display:flex;
+    gap:20px;
+}
+
+.arrows span{
+    width:40px;
+    height:40px;
+    border:2px solid #0b3c6f;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+}
+
+
+/* TOURISM */
+.tourism{
+    padding:80px 10%;
+}
+
+.tourism h2{
+    font-family:'Oswald', sans-serif;
+    font-size:42px;
+    color:#0b3c6f;
+    margin-bottom:40px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:30px;
+}
+
+.card{
+    background:#e8e8e8;
+    padding:40px;
+    text-align:center;
+}
+
+.card img{
+    width:80px;
+    margin-bottom:15px;
+}
+
+.card p{
+    color:#f4a000;
+    font-weight:bold;
+}
+
+.choose{
+    padding:80px 10%;
+    text-align:center;
+    background:#fff;
+}
+
+.choose h2{
+    font-family:'Oswald', sans-serif;
+    font-size:42px;
+    color:#0b3c6f;
+    margin-bottom:40px;
+}
+
+.tabs{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    margin-bottom:20px;
+}
+
+.tabs span{
+    cursor:pointer;
+    padding-bottom:10px;
+}
+
+.tabs .active{
+    border-bottom:4px solid #f4a000;
+}
+
+.line{
+    height:2px;
+    background:#ddd;
+}
